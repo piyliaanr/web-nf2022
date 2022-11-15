@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Form pemesanan barang</title>
+</head>
+
+<body style="background-color: grey;width:100%;">
+        <div>
+            <table style="border-style: none; width: 90%;margin-left: auto;margin-right: auto; background-color: white;">
+                <tr>
+                    <td align="center" style="width: 100px;">Home</td>
+                    <td>|</td>
+                    <td align="center" style="width: 200px;">Generate Link</td>
+                    <td>|</td>
+                    <td align="center" style="width: 200px;">Transaction history</td>
+                    <td>|</td>
+                    <td align="center" style="width: 150px;">Policy</td>
+                    <td>|</td>
+                    <td align="center" style="width: 100px;">Logout</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div style="width: 300px; float: left; text-align: center;">
+            <table>
+                <tr>
+                    <td><img src="Assests/Images/Iphone 14 rose.jpeg" alt="Iphone 14 rose.jpeg" style="width: 150px;margin-left: 100px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div style="margin-left: 10px;">
+            <form method="post" action="Hasil Form.html">
+                <table>
+                    </tr>
+                    <tr>
+                        <td>Name barang</td>
+                        <td>:</td>
+                        <td>Iphone 14 Royal Rose</td>
+                    </tr>
+                    <tr>
+                        <td>Rilis Tahun</td>
+                        <td>:</td>
+                        <td>September 2022</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>:</td>
+                        <td>Rp.11,700.000</td>
+                    </tr>
+                    <tr>
+                        <td>Payment type</td>
+                        <td>:</td>
+                        <td>
+                            <select name="Payment Type" id="Payment Type">
+                                <option value="BCAI">BCAI</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Account Number</td>
+                        <td>:</td>
+                        <td>2143706249</td>
+                    </tr>
+                    <tr>
+                        <td>RAM</td>
+                        <td>:</td>
+                        <td>128 GB</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <p><strong>*if the transaction is for 3 person, choose 3 from the drop-down list</strong></p>
+                            <p style="color: red;"><input type="checkbox" name="transaction">Send to Mobile Phone</p>
+                            <p style="color: red;"><input type="checkbox" name="transaction">Send to email</p>
+                        </td> 
+                    </tr>
+                </table>
+                <table style="margin-left: 300px;">
+                    <tr>
+                        <td>Send to<br>Mobile Phone</td>
+                        <td>:</td>
+                        <td><input size="30" placeholder="085692473990" style="color: black"></td>
+                    </tr>
+                    <tr>
+                        <td>Send to Email</td>
+                        <td>:</td>
+                        <td><input size="30" placeholder="xxbox@gmail.com" name="email"></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <input type="submit" value="Generate Number Link" style="margin-left: 490px;background-color: green; text-align:center;color:white;">
+            </form>
+        </div>
+</body>
+</html>
